@@ -27,7 +27,13 @@ const Footer = () => {
               with dozens of premade. beautiful templates.
             </Typography>
           </Grid>
-          <Typography>Made with heart in the netherlands</Typography>
+          <Typography>
+            Made with{" "}
+            <Typography display={"inline-block"} fontSize={20}>
+              &hearts;
+            </Typography>{" "}
+            in the netherlands
+          </Typography>
         </Grid>
         {FooterData.map((item) => (
           <Grid

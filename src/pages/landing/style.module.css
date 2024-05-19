@@ -2,3 +2,16 @@
   background-color: whitesmoke;
   padding-block: 20px;
 }
+.container_box {
+  background-color: #571cdd;
+  min-height: 500px;
+  border-radius: 8px;
+}
+.container_text {
+  color: white;
+}
+.container_button {
+  color: #571cdd !important;
+  background-color: white !important;
+  font-weight: bold !important;
+}

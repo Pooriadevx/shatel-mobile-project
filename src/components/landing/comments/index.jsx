@@ -18,7 +18,7 @@ const Comments = () => {
         >
           <img src={item.img} alt={item.name} />
           <Grid item container justifyItems={"flex-start"} xs={5}>
-            <Typography>{item.name}</Typography>
+            <Typography color={"#571cdd"}>{item.name}</Typography>
             <Typography>{item.number}</Typography>
           </Grid>
           <Typography fontSize={15}>
@@ -27,7 +27,12 @@ const Comments = () => {
             ducimus culpa nesciunt, quae distinctio voluptates debitis vero
             adipisci. Rerum.
           </Typography>
-          <Button fullWidth variant={"text"} className={classes.box_button}>
+          <Button
+            fullWidth
+            variant={"text"}
+            size="large"
+            classes={{ root: classes.box_button }}
+          >
             {`View ${item.name}'s Portfolio`}
           </Button>
         </Grid>

@@ -74,19 +74,31 @@ const Landing = () => {
         lg={9}
         sm={10}
         xs={11}
-        sx={{ backgroundColor: "red", minHeight: 500, borderRadius: 4 }}
+        className={classes.container_box}
         marginBlock={10}
         justifyContent={"space-around"}
       >
         <Grid item md={5} xs={10} container alignContent={"center"} gap={1}>
-          <Typography fontSize={40} fontWeight={"bold"}>
+          <Typography
+            fontSize={40}
+            fontWeight={"bold"}
+            className={classes.container_text}
+          >
             Diversify your portfolio
           </Typography>
-          <Typography textAlign={"left"} fontSize={20}>
+          <Typography
+            className={classes.container_text}
+            textAlign={"left"}
+            fontSize={20}
+          >
             Create an even more impressive portfolio by creating case studies
             for your projects. simply follow out step-by-step guide.
           </Typography>
-          <Button variant="contained" size="large">
+          <Button
+            variant="contained"
+            size="large"
+            className={classes.container_button}
+          >
             Start Free Trial
           </Button>
         </Grid>

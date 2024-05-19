@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <Grid item container alignItems={"center"}>
-      <Grid item md={3} xs={5}>
+      <Grid item md={3} xs={5} justifyContent={"center"} container>
         <b>Fiber</b>
       </Grid>
       <Hidden mdDown>
@@ -33,7 +33,12 @@ const Header = () => {
         <Button variant="text" color="inherit">
           <b>sing In</b>
         </Button>
-        <Button variant="contained" color="secondary" size="large">
+        <Button
+          variant="contained"
+          color="secondary"
+          size="large"
+          href="/signup"
+        >
           Sing Up
         </Button>
       </Grid>
