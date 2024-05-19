@@ -7,6 +7,7 @@ import {
   IconButton,
   ListItemButton,
 } from "@mui/material";
+import { HeaderItems } from "../../../constants/landing";
 import hamburgerMenu from "../../../assets/Hamburger Menu.svg";
 
 const Header = () => {
@@ -23,9 +24,9 @@ const Header = () => {
       </Grid>
       <Hidden mdDown>
         <Grid container item xs={6} spacing={3} justifyContent={"center"}>
-          <Grid item>Commiunity</Grid>
-          <Grid item>Pricing</Grid>
-          <Grid item>Features</Grid>
+          {HeaderItems.map((item) => (
+            <Grid item>{item}</Grid>
+          ))}
         </Grid>
       </Hidden>
       <Grid item md={3} xs={5} gap={3} container justifyContent={"center"}>
@@ -48,9 +49,9 @@ const Header = () => {
           anchor={"right"}
         >
           <Grid container direction={"column"}>
-            <ListItemButton>Commiunity</ListItemButton>
-            <ListItemButton>Pricing</ListItemButton>
-            <ListItemButton>Features</ListItemButton>
+            {HeaderItems.map((item) => (
+              <ListItemButton>{item}</ListItemButton>
+            ))}
           </Grid>
         </Drawer>
       </Hidden>

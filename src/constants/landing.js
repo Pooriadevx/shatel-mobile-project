@@ -5,6 +5,8 @@ import user1 from "../assets/User.svg";
 import user2 from "../assets/User2.svg";
 import user3 from "../assets/User3.svg";
 
+export const HeaderItems = ["Commiunity", "Pricing", "Features"];
+
 export const FibersBenefits = [
   {
     title: "Build In Minutes",
