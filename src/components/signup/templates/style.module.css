@@ -1,0 +1,9 @@
+.container {
+  height: 100vh;
+  background-color: #571cdd;
+}
+.container_image {
+    border-radius: 9px;
+    width: 400px;
+    height: 300px;
+}
