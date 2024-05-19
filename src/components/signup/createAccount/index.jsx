@@ -24,7 +24,9 @@ const CreateAccount = () => {
         margin={5}
       >
         <Grid item>
-          <Typography>Fiber</Typography>
+          <Link href="/" underline="hover" fontSize={25} fontWeight={"bold"}>
+            Fiber
+          </Link>
         </Grid>
         <Grid item>
           <Typography fontSize={25}>Create your Fiber account</Typography>

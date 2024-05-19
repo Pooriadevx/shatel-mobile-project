@@ -39,7 +39,11 @@ const Landing = () => {
               with dozends of premade, beautiful templates.
             </Typography>
             <Grid container gap={3} alignItems={"center"}>
-              <Button variant="contained" size="large">
+              <Button
+                variant="contained"
+                size="large"
+                sx={{ backgroundColor: "#4d13d1" }}
+              >
                 Start Free Trial
               </Button>
               <Link>view Examples</Link>

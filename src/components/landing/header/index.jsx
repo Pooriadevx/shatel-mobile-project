@@ -35,9 +35,9 @@ const Header = () => {
         </Button>
         <Button
           variant="contained"
-          color="secondary"
           size="large"
           href="/signup"
+          sx={{ backgroundColor: "#4d13d1" }}
         >
           Sing Up
         </Button>
